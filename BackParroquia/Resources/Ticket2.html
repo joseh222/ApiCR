@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Boleta Electrónica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 10px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 100%;
+            padding: 5px;
+        }
+
+        .header, .content, .footer {
+            text-align: center;
+        }
+
+        .content {
+            margin-top: 10px;
+            text-align: left;
+        }
+
+        .footer {
+            margin-top: 10px;
+        }
+
+        .border {
+            width: 100%;
+            table-layout: fixed;
+            word-wrap: break-word;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 5px;
+            font-size: 10px;
+            word-wrap: break-word;
+        }
+
+        th {
+            text-align: center;
+            border-bottom: 1px solid black;
+        }
+
+        td.right-align {
+            text-align: right;
+        }
+
+        .total-row {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-top: 5px;
+            padding-right: 5px;
+            text-align: right;
+        }
+
+        .total-label {
+            margin-right: 20px;
+        }
+
+        .subtotal-row td {
+            border-top: 1px solid black;
+            text-align: right;
+            padding-top: 5px;
+            padding-right: 5px;
+            padding: 0px;
+        }
+
+        /*.subtotal-row .description {
+            text-align: left;
+        }*/
+
+        .no-border td {
+            border: none;
+        }
+
+        .line {
+            border-top: 1px solid black;
+            width: 100%;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header" style="margin-bottom: 20px">
+            <div><h4 style="margin:0px">PARROQUIA CRISTO REY</h4></div>
+            <div>Av. Oscar Benavides 500</div>
+            <div>PUEBLO NUEVO - CHINCHA - ICA</div>
+            <div>Telf: 056-287876</div>
+            <div>BOLETA ELECTRONICA</div>
+            <div>B001-0000000001</div>
+        </div>
+        <br />
+        <div class="content">
+            <div>Fecha de Emision: @FECHA_EMISION</div>
+            <div>Nombre: <span style="border-bottom:1px solid black;">@CLIENTE</span></div>
+            <div style="margin-bottom: 10px">DNI: <span style="border-bottom:1px solid black;">@DNI</span></div>
+            <br />
+            <table class="border">
+                <thead>
+                    <tr>
+                        <th style="width: 12%;">Cant</th>
+                        <th style="width: 50%;">Descripcion</th>
+                        <th style="width: 19%;">P. Unit</th>
+                        <th style="width: 19%;">Importe</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @FILAS
+                    <tr class="subtotal-row">
+                        <td colspan="2">Subtotal:</td>
+                        <td></td>
+                        <td>@TOTAL</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align:right">Total:</td>
+                        <td class="description"></td>
+                        <td style="text-align:right">@TOTAL</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Son: @T_LETRAS</p>
+            <!--<div style="border-top: 1px solid black; width:100%"></div>
+    <div style="border-top: 1px solid black; width: 100%; border-bottom: 1px solid black;">
+        <p>Son: @T_LETRAS</p>
+    </div>-->
+            <div>Este establecimiento por ordenanza.....</div>
+        </div>
+        <div class="footer">
+            <div>Gracias por su visita</div>
+        </div>
+    </div>
+</body>
+</html>

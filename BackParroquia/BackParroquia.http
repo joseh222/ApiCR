@@ -1,0 +1,6 @@
+@BackParroquia_HostAddress = http://localhost:5023
+
+GET {{BackParroquia_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
