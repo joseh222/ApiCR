@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BackParroquia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4871992fd1f916b5fc469b06d0c6901cb072953c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BackParroquia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BackParroquia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

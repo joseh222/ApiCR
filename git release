@@ -1,0 +1,18 @@
+[33mcommit def5639afba49e3884db9119722321758e6edc75[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mventas[m[33m)[m
+Author: joseh222 <pepejose_14@hotmail.com>
+Date:   Thu Jun 20 11:46:05 2024 -0500
+
+    commit ventas
+
+[1mdiff --git a/BackParroquia/Models/Venta.cs b/BackParroquia/Models/Venta.cs[m
+[1mnew file mode 100644[m
+[1mindex 0000000..36a996b[m
+[1m--- /dev/null[m
+[1m+++ b/BackParroquia/Models/Venta.cs[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m﻿namespace BackParroquia.Models[m
+[32m+[m[32m{[m
+[32m+[m[32m    public class Venta[m
+[32m+[m[32m    {[m
+[32m+[m[32m    }[m
+[32m+[m[32m}[m

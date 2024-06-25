@@ -48,3 +48,4 @@ C:\Users\Jose\Documents\DEV24\repo\BackParroquia\BackParroquia\bin\Debug\net8.0\
 C:\Users\Jose\Documents\DEV24\repo\BackParroquia\BackParroquia\bin\Debug\net8.0\PdfSharp.dll
 C:\Users\Jose\Documents\DEV24\repo\BackParroquia\BackParroquia\bin\Debug\net8.0\de\PdfSharp.Charting.resources.dll
 C:\Users\Jose\Documents\DEV24\repo\BackParroquia\BackParroquia\bin\Debug\net8.0\de\PdfSharp.resources.dll
+C:\Users\Jose\Documents\DEV24\repo\BackParroquia\BackParroquia\obj\Debug\net8.0\BackParroquia.sourcelink.json
